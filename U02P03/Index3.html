@@ -6,84 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Web Training</title>
-    <style>
-        * {
-            box-sizing: border-box;
-        }
-
-        body {
-            font-family: Verdana, Geneva, Tahoma, sans-serif;
-            color: #aaaaaa;
-        }
-
-        div.container {
-            overflow: auto;
-        }
-
-        header {
-            background-color: #e5e5e5;
-            padding: 15px;
-            text-align: center;
-        }
-
-        nav {
-            float: left;
-            width: 20%;
-            text-align: center;
-        }
-
-        nav ul {
-            padding-left: 0px;
-        }
-
-        nav li {
-            list-style: none;
-        }
-
-        nav li a {
-            background-color: #e5e5e5;
-            padding: 8px;
-            margin-top: 7px;
-            display: block;
-            width: 100%;
-            color: black;
-            font-weight: 700;
-        }
-
-        main {
-            float: left;
-            width: 60%;
-            padding: 0 20px;
-        }
-
-        .right {
-            background-color: #e5e5e5;
-            float: left;
-            width: 20%;
-            padding: 15px;
-            margin-top: 7px;
-            text-align: center;
-        }
-
-        footer {
-            background-color: #e5e5e5;
-            text-align: center;
-            padding: 10px;
-            margin-top: 7px;
-        }
-
-        /* For mobile phones: */
-        @media only screen and (max-width: 620px) {
-
-            nav,
-            main,
-            .right {
-                width: 100%;
-            }
-        }
-    </style>
-
-
+    <link rel="stylesheet" href="CSS/Index.css">
+    
 </head>
 
 <body>
@@ -102,28 +26,60 @@
         </nav>
         <!-- Contenedor principal -->
         <main>
-            
+            <!-- Sección noticias-->
             <section>
                 <h2>Noticias</h2>
-                <p>En Web Training podes suscribirte a las mejores capacitaciones 
-                    sin moverte de tu casa y a un costo realmente bajo!!</p>
-                <p>Más de 20.000 alumnos se capacitaron en Web Training y lo siguen eligiendo.  
-                </p>
-                <p>Más de 1.000 empresas de Rosario estan asociados con Web Training
-                    para capacitar a sus empleados.
-                </p>
+                <article>
+                    <p>Novedades de Autocad</p>
+                    <p>Autocad 2022</p>
+                    <p><a href="https://latinoamerica.autodesk.com/products/autocad/features" target="_blank">Ver
+                            más</a></p>
+                </article>
+                <article>
+                    <p>Idiomas</p>
+                    <p>Idiomas más hablados en el mundo</p>
+                    <p><a href="https://es.statista.com/estadisticas/635631/los-idiomas-mas-hablados-en-el-mundo/"
+                            target="_blank">Ver más</a></p>
+                </article>
+                <article>
+                    <p>Nueva versión de JavaScript</p>
+                    <p>Versión ES12 o ECMAScript 2021</p>
+                    <p><a href="https://cosasdigitales.com/articulos-diseno-web/es2021-es12-novedades-de-la-ultima-version-de-javascript/"
+                            target="_blank">Ver más</a></p>
+                </article>
+
             </section>
+            <!-- Fin Sección noticias-->
             <br>
             <section>
                 <h2>Capacitaciones</h2>
                 <p>
-                    <ul>
-                        <li>Office</li> &nbsp;&nbsp; 
-                        <li>Corel y Autocadd </li> &nbsp;&nbsp;
-                        <li>Idiomas </li> &nbsp;&nbsp;
-                        <li>RRHH y Administración</li> &nbsp;&nbsp;
-                        <li>HTML, CSS y JavaScrip</li>
-                    </ul>
+                <ul>
+                    <li>
+                        <article>
+                            <p>Computación</p>
+                            <p>Nivel Inicial / Intermedio / Avanzado</p>
+                            <p><a href="https://www.nasacomputacion.com.ar/sitio/cursos-especificos-computacion/"
+                                    target="_blank">Más Info</a></p>
+                        </article>
+                    </li> &nbsp;&nbsp;
+                    <li>
+                        <article>
+                            <p> Administración & Marketing</p>
+                            <p>Marketing digital</p>
+                            <p><a href="https://www.nasacomputacion.com.ar/sitio/marketing-digital/" target="_blank">Más
+                                    Info</a></p>
+                        </article>
+                    </li> &nbsp;&nbsp;
+                    <li>
+                        <article>
+                            <p>Idiomas</p>
+                            <p>Inglés Nivel Inicial / Intermedio / Avanzado </p>
+                            <p><a href="https://www.nasacomputacion.com.ar/sitio/cursos-regulares-idiomas/"
+                                    target="_blank">Más Info</a></p>
+                        </article>
+                    </li> &nbsp;&nbsp;
+                </ul>
                 </p>
 
             </section>
@@ -132,7 +88,7 @@
         <div class="right">
             <h2>Info</h2>
             <p>En Web Training podés encontrar las mejores capacitaciones que te permitirán
-                obtener conocimientos generales esenciales para tu vida. 
+                obtener conocimientos generales esenciales para tu vida.
 
             </p>
         </div>
