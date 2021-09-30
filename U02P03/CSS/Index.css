@@ -4,7 +4,7 @@
 
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: #943246;
+    color: rgb(70, 13, 41);
 }
 
 div.container {
@@ -37,7 +37,7 @@ nav li a {
     margin-top: 7px;
     display: block;
     width: 100%;
-    color: #943246;
+    color: black;
     font-weight: 700;
 }
 
