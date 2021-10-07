@@ -44,3 +44,13 @@ nav {
     text-decoration: none;
     color: #fff;
 }
+
+.nav-item:hover {
+    /* aplicar color de fondo */
+    background-color: #fff;
+}
+
+.nav-item:hover a {
+    /* aplicar color de texto de los links*/
+    color: #007700;
+}
