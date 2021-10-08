@@ -7,6 +7,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Web Training</title>
     <link rel="stylesheet" href="CSS/Index.css">
+    <style>
+        .myDiv {
+            text-align:right;
+        }
+    </style>
 
 </head>
 
@@ -40,7 +45,7 @@
                             <input type="text" id="Nombre" name="Nombre" maxlength="20" required>
                         </td>
                     </tr>
-                    &nbsp;
+                    &nbsp; &nbsp;
                     <tr>
                         <td>
                             <label for="email"> <b>Email</b></label>
@@ -49,7 +54,7 @@
                             <input type="email" name="email" id="email" maxlength="20" required>
                         </td>
                     </tr>
-                    &nbsp;
+                    &nbsp; &nbsp;
                     <tr>
                         <td>
                             <label for="number"> <b>Edad</b></label>
@@ -58,25 +63,9 @@
                             <input type="number" name="edad" id="edad" maxlength="2">
                         </td>
                     </tr>
-                    &nbsp;
-                    <tr>
-                        <td>
-                            <label for="Dirección"> <b>Dirección</b></label>
-                        </td>
-                        <td>
-                            
-                        </td>
-                    </tr>
-                    &nbsp;
-                    <tr>
-                        <td>
-                            <label for="Dirección"> <b> Ubicación UTN Rosario</b> </label>
-                        </td>
-                        <td>
-                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3347.870428011672!2d-60.64592058525371!3d-32.954430179611464!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95b7ab11d0eb49c3%3A0x11f1d3d54f950dd0!2sUniversidad%20Tecnol%C3%B3gica%20Nacional%20%7C%20Facultad%20Regional%20Rosario!5e0!3m2!1ses!2sar!4v1633137380212!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>   
-                        </td>
-                    </tr>
-                    &nbsp;
+
+                    &nbsp;&nbsp;
+
                     <tr>
                         <td>
                             <label for="color"> <b>Color Preferido</b></label>
@@ -85,7 +74,7 @@
                             <input type="color" name="color" id="color">
                         </td>
                     </tr>
-                    &nbsp;
+                    &nbsp; &nbsp;
                     <tr>
                         <td>
                             <label for="textarea"> <b>Comentario</b> </label>
@@ -95,11 +84,26 @@
 
                         </td>
                     </tr>
-                   
-                </tbody>
-                <tfoot>
+                    &nbsp; &nbsp;
                     <tr>
                         <td>
+                            <label for="Dirección"> <b> Ubicación UTN Rosario</b>&nbsp; &nbsp; </label>
+                        </td>
+                        
+                        <td>
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3347.870428011672!2d-60.64592058525371!3d-32.954430179611464!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95b7ab11d0eb49c3%3A0x11f1d3d54f950dd0!2sUniversidad%20Tecnol%C3%B3gica%20Nacional%20%7C%20Facultad%20Regional%20Rosario!5e0!3m2!1ses!2sar!4v1633137380212!5m2!1ses!2sar"
+                                width="400" height="250" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                        </td>
+                    </tr>
+
+
+                </tbody>
+                &nbsp;&nbsp;
+                <tfoot>
+                    <tr>
+                     
+                        <td class="myDiv">
                             <input type="submit" value="Enviar">
                         </td>
                     </tr>
