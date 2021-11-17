@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/index.css">
+    <script src="js/index.js" defer></script>
+    <title>Calculadora Fruet Bruno - Traviesas Paola</title>
+</head>
+
+<body>
+    <main>
+        <h1>Calculadora de costo de Energía Eléctrica</h1>
+
+        <form action=""  id="formulario" onsubmit="return calculadora()">
+            <div class="type_user">
+                <fieldset id="selectedUser">
+                    <legend>Tipo de usuario</legend>
+                    <input type="radio" name="user" id="user" value="1"> Residencial
+                    <br>
+                    <input type="radio" name="user" id="user" value="2"> Industrial
+                </fieldset>
+            </div>
+            <div class="selectedAddress">
+                <fieldset>
+                    <legend>Zona del domicilio</legend>
+                    <select name="selectable" id="zone" required>
+                        <option value="0" id="select" selected>Seleccionar...</option>
+                        <option value="1" id="dC">Distrito Centro</option>
+                        <option value="2" id="dS">Distrito Sur</option>
+                        <option value="3" id="dO">Distrito Oeste</option>
+                        <option value="4" id="dN">Distrito Norte</option>
+                    </select>
+                </fieldset>
+            </div>
+            <div class="kWh">
+                <label for="number">Cantidad de kWh del mes</label>
+                <input type="number" name="kWh" id="kWhValue">
+            </div>
+            <button type="submit" id="btn-calculate" onclick="validaciones()">Calcular</button>
+        </form>
+        <h1 id="resultado"> 0 $</h1>
+    </main>
+
+
+
+
+
+
+</body>
+
+</html>
