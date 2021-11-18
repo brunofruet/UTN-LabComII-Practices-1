@@ -5,71 +5,48 @@
     font-family: "Poppins", sans-serif;
     margin: 0%;
 }
+.calc-container {
+    display: flex;
+    align-items: center;
+    background-color: rgb(213, 241, 246);
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 5px 5px 10px 1px #000;
+    text-align: center;
+    margin: 20px;
+}
 
-main {
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background-image: url("https://www.bbva.com/wp-content/uploads/2021/02/energi%CC%81a_electrica-1920x1180.jpg");
     height: 100vh;
-    background-position:center;
+    background-position: center;
 }
 
 h1 {
-    display: flex;
-    justify-content: center;
-    padding: 20px;
-    color: #050521 ;
-    font-size: 200%;
+    color: #18187c ;
+    font-size: 180%;
 }
 #formulario {
-    margin: 2%;
-    color:#050521;
+    color: #18187c;
     font-size: 120%;
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    
- 
-
+}
+fieldset{
+    color: #18187c;
+    border-radius:5px;
 }
 
-fieldset {
-    
-    border:1px solid rgba(57, 58, 59, 50);
-	border-radius:5px;
-	box-shadow:0 0 5px black;
-    margin: 1%;
-}
-.type_user {
-    padding: 0% 30% 0% 40%; 
-}
-.type_user input {
-    background-color: skyblue;
-}
-.selectedAddress {
-    padding: 0% 30% 0% 40%;
-}
-
-.selectedAddress option {
-    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.4);
-    background-color: rgba(190, 235, 234, 10);
-    border:1px solid rgba(57, 58, 59, 10);
-	border-radius:5px;
-}
-
-.kWh{
-    padding: 0% 30% 0% 40%;
-    margin: 1%;
-}
 
 .kWh input {
-    background-color: rgba(190, 235, 234, 10);
     border:1px solid rgba(57, 58, 59, 10);
 	border-radius:5px;
 }
 
 button {
-    background-color: rgba(190, 235, 234, 10);
-    border:1px solid rgba(57, 58, 59, 10);
+    margin: 2%;
+    border:1px solid;
 	border-radius:5px;
-    margin: 1% 41%;
     font-size: 90%;
-    
 }

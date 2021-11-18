@@ -11,10 +11,10 @@
 </head>
 
 <body>
-    <main>
-        <h1>Calculadora de costo de Energía Eléctrica</h1>
-
-        <form action=""  id="formulario" onsubmit="return calculadora()">
+    <main class="calc-container">
+        
+        <form action=""  id="formulario" onsubmit="return false">
+            <div><h1>Calculadora de costo de Energía Eléctrica</h1></div>
             <div class="type_user">
                 <fieldset id="selectedUser">
                     <legend>Tipo de usuario</legend>
@@ -35,18 +35,19 @@
                     </select>
                 </fieldset>
             </div>
-            <div class="kWh">
-                <label for="number">Cantidad de kWh del mes</label>
+            <fieldset>
+                <legend>Cantidad de kWh del mes</legend>
                 <input type="number" name="kWh" id="kWhValue">
+            </fieldset>
+            <div>
+                <button type="submit" id="btn-calculate" onclick="validaciones()">Calcular</button>
+
             </div>
-            <button type="submit" id="btn-calculate" onclick="validaciones()">Calcular</button>
         </form>
-        <h1 id="resultado"> 0 $</h1>
+        <div>
+            <h1 id="resultado"> </h1>
+        </div>
     </main>
-
-
-
-
 
 
 </body>
